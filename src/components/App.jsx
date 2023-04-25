@@ -1,16 +1,18 @@
+import { Profile } from './Profile/profile';
+import user from '../database/user';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <Profile
+        avatar={user.avatar}
+        userName={user.username}
+        tag={user.tag}
+        location={user.location}
+        followers={user.stats.followers}
+        views={user.stats.views}
+        likes={user.stats.likes}
+      />
     </div>
   );
 };
