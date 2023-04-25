@@ -28,8 +28,11 @@
 .stats {
   list-style: none;
   display: flex;
-  justify-content: space-around;
   padding: 0;
+}
+
+.stats li {
+  width: calc(100% / 3);
 }
 
 .label {
