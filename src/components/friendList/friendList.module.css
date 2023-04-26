@@ -1,12 +1,9 @@
 .friendList {
-  /* display: flex; */
   list-style: none;
   width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 24px auto;
   border: 1px solid #afb1b8;
   padding: 15px;
-  margin-top: 0px;
 }
 
 .item {
