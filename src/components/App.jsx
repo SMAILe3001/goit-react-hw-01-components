@@ -1,4 +1,4 @@
-import { Profile } from './profile/profile';
+import { Profile } from './Profile/profile';
 import { Statistics } from './statistics/statistics';
 import { FriendList } from './friendList/friend-list';
 import user from 'database/user';
